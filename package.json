@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node_modules/.bin/webpack --progress --config webpack.config.js",
+    "build:production": "node_modules/.bin/webpack --progress -p --config webpack.config.js"
   },
   "keywords": [],
   "author": "Lucas Aragno <lucas.aragno157@gmail.com> (http://twitter.com/aragno157)",
